@@ -1,2 +1,2 @@
-output=$(mdl INPUT_PATH)
+output=$(mdl $INPUT_PATH)
 echo ::set-output name=output::"$output"
